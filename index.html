@@ -121,7 +121,7 @@
             <h5 class="card-title">Supply 350</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             <h5>$120</h5>
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button" onclick="clickBoom(event)">Buy Now >></button>
           </div>
         </div>
         <div class="card">
@@ -130,7 +130,7 @@
             <h5 class="card-title">Nike 360</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             <h5>$320</h5>
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button" onclick="clickBoom(event)">Buy Now >></button>
           </div>
         </div>
         <div class="card">
@@ -139,7 +139,7 @@
             <h5 class="card-title">Red Airmax</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
             <h5>$350</h5>
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button" onclick="clickBoom(event)">Buy Now >></button>
           </div>
         </div>
       </div>
@@ -156,7 +156,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button" onclick="clickBoom(event)">Buy Now >></button>
           </div>
         </div>
         <div class="card">
@@ -167,7 +167,7 @@
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button" onclick="clickBoom(event)">Buy Now >></button>
           </div>
         </div>
         <div class="card">
@@ -178,7 +178,7 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+            <button class="buy-now-button" onclick="clickBoom(event)">Buy Now >></button>
           </div>
         </div>
       </div>
@@ -188,15 +188,17 @@
       <div>
         <h3>LET'S STAY IN TOUCH</h3>
         <h6>Get updates on sales, specials and more</h6>
-        <input class="form-control" type="text">
-        <button class="buy-now-button">SUBMIT</button>
+        <input class="form-control" type="text" id="inputField">
+        <button class="buy-now-button" disabled id="submit">SUBMIT</button>
       </div>
     </div>
 
     <footer>
-      <small> ©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria. </small>
+      <small> ©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria. </small>
     </footer>
 
+    <!-- custom js file -->
+    <script src="js/index.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
